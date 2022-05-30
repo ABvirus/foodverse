@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+.container{
+    width: 1360px;
+    margin: auto;
+}
+#header{
+    background-image: url(./img/hero_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 1080px;
+
+}
+
+.navbar{
+    padding: 30px 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-tabs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+#tab5 {
+    background: #E74237;
+    border-radius: 5px;
+    padding: 10.85px 29px 11.75px 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration: none;
+}
+h2{ text-align: center;
+}
+
+.heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    /* display: flex;
+    align-items: center;
+    text-align: center; */
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: #202124;
+
+}
+
+
+.row {
+text-align: center;    
+    display: flex;}
+
+.image-carousel{
+    display: flex;
+}
+
+#collaborators{
+    text-align: center;
+}
+
+.logo-section {
+    padding: 0 20px;
+}
+
+#newsletter{
+    height: 436px;
+    background-color: #E74237;
+}
+
+.case-studies{
+    display: flex;
+    height: 596px;
+}
+.case-study{
+    width: 470px;
+}
+#tokenomics{
+    text-align: center;
+}
+
+.roadmap{
+    max-width: 100%;
+    height: auto;
+}
+    /*--------------- Footer----------------------- */
+
+
+
+.footer{
+    box-shadow: 0px -5px 8px 1px rgba(199,199,199,1);
+    /* border: #3C3C43 4px solid; */
+    margin-top: 391px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35.68px 116px;
+    /* margin-top: 355px; */
+    gap: 120px;
+    /* box-shadow: 0px -10px 20px #888; */
+}
+
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 94px;
+    align-items:flex-start;
+}
+
+.newsletter{
+    width: 307px;
+
+}
+
+.news-heading  {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+
+color: #000000;
+
+    
+}
+.useful-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+}
+
+.line3{
+    background: #AC1F2D;
+    height: 1.23px;
+    width: 65px;
+
+}
+.link1,.link2,.link3,.link4{
+    margin-top: 22.76px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.03em;
+
+color: #000000;
+
+
+}
+
+.social{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap:-10px; */
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .nav-img{
+        margin-left: -100px;
+    }
+    .nav-tabs{
+        margin-right: -100px;
+    }
+    .team{
+        margin-top: 50px;
+    }
+    .blocks{
+        padding: 0px 50px 0px 50px;
+        gap:100px;
+        
+    }
+    .adv-block{
+        padding: 0px 50px 0px 50px;
+        gap: 100px;
+    }
+    .footer{
+        margin-top: 70px;
+        gap: 30px;
+        padding-left: 100px;
+        justify-content: center;
+    }
+    .foot-img{
+        margin-left: 50px;
+    }
+    .footer-content{
+       
+        gap: 30px;
+        
+    }
+    .social{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-left: 50px;
+        
+
+    }
+    .social-media{
+        display: flex;
+        gap: 2px;
+    }
+    
+    
+       
+        
+}
+
+
+
+@media screen and (min-width:1000px) and (max-width: 2000px){
+    
+    .footer-content{
+        flex-wrap: nowrap;
+    }
+    .social{
+        margin-left: 250px;
+    }
+}
+
+
+@media screen and (min-width:1400px) and (max-width: 2000px){
+    .footer{
+        flex-wrap: nowrap;
+    
+        gap:10px;
+        
+    }
+    
+
+}
